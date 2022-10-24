@@ -233,59 +233,59 @@
 ##########################################
 
 ######### Dictionary ###################
-
-wordDict = {
-    'name' : 'Hamza',
-    'class' : 9,
-    'age' : 15,
-    'school' : 'iiui',
-}
-
-print(wordDict)
-
-print(wordDict['name'])
-
-print(wordDict['age'])
-
-mangoDictionary = {
-    'name' : 'mango',
-    'types' : ['sindhri','rathore','chunsa','white chunsa'],
-    'price' : 200,
-    'exports' : {
-        'usa' : '200 tons',
-        'uk' : '500 tons'
-    }
-}
-
-print(mangoDictionary)
-
-print(mangoDictionary['types'])
-
-print(mangoDictionary['types'][0])
-
-print(mangoDictionary['types'][2])
-
-print(mangoDictionary['exports']['usa'])
-
-print(mangoDictionary['exports']['uk'])
-
-students = {
-    's1' : 'daud',
-    's2' : 'saud',
-}
-
-print(students)
-
-students['s3'] = 'fatima'
-
-print(students)
-
-students['s1'] = 'saad'
-
-print(students)
-
-print(students.keys()) ####### for keys only
-
-print(students.values()) ####### for values only
-
-print(students.items())
+#
+# wordDict = {
+#     'name' : 'Hamza',
+#     'class' : 9,
+#     'age' : 15,
+#     'school' : 'iiui',
+# }
+#
+# print(wordDict)
+#
+# print(wordDict['name'])
+#
+# print(wordDict['age'])
+#
+# mangoDictionary = {
+#     'name' : 'mango',
+#     'types' : ['sindhri','rathore','chunsa','white chunsa'],
+#     'price' : 200,
+#     'exports' : {
+#         'usa' : '200 tons',
+#         'uk' : '500 tons'
+#     }
+# }
+#
+# print(mangoDictionary)
+#
+# print(mangoDictionary['types'])
+#
+# print(mangoDictionary['types'][0])
+#
+# print(mangoDictionary['types'][2])
+#
+# print(mangoDictionary['exports']['usa'])
+#
+# print(mangoDictionary['exports']['uk'])
+#
+# students = {
+#     's1' : 'daud',
+#     's2' : 'saud',
+# }
+#
+# print(students)
+#
+# students['s3'] = 'fatima'
+#
+# print(students)
+#
+# students['s1'] = 'saad'
+#
+# print(students)
+#
+# print(students.keys()) ####### for keys only
+#
+# print(students.values()) ####### for values only
+#
+# print(students.items())
