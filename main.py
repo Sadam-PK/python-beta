@@ -289,3 +289,291 @@
 # print(students.values()) ####### for values only
 #
 # print(students.items())
+
+###################################
+
+######## Tuples ############### immutable
+
+t = (1,2,3)
+
+print(t)
+
+## t[0] = 2   ------- can't be performed --------
+
+print(len(t))
+
+t2 = (1,2,'apple',4,'apple')
+
+print(t2)
+
+print(t2[(1)])
+
+print(t2[(2)])
+
+print(t2.count('apple'))
+
+print(t2.index('apple'))
+
+print(t2.index(2))
+
+t3 = t+t2
+
+print(t3)
+
+############ Tuple to List #############
+
+tupToList = list(t2)
+
+print(tupToList)
+
+x = tupToList
+
+print(x)
+
+listToTuple = tuple(x)
+
+print(listToTuple)
+
+###### tuples are immutable but deletable #######
+
+myTuple = (1,2,3,4)
+
+print(type(myTuple))
+
+del myTuple      #### delete - so won't be printed now
+
+######################################
+
+################ Sets ###################
+
+mySet = set()
+
+mySet.add(1)
+
+print(mySet)
+
+mySet.add(2)
+
+mySet.add(4)
+
+mySet.add(3)
+
+print(mySet)
+
+mySet.add(4)    ########## no repetation - because it is SET
+
+print(mySet)
+
+setNumbers = {1,2,2,3,4,4}
+
+print(setNumbers)
+
+print(type(setNumbers))
+
+setToList = list(setNumbers)
+
+print(setToList)
+
+print(setNumbers.pop())
+
+print(setNumbers)
+
+setNumbers.pop()
+
+print(setNumbers)
+
+##########################
+
+###### Booleans ##############
+
+True
+
+print(type(True))
+
+print( 1 < 2)
+
+a = None
+
+print(type(a))
+
+1 == 1
+
+print(1==1)
+
+###################################
+
+######### write file - type this part in jupyter #############
+#
+# %%writefile fileName.txt
+# Asalam alaikum
+# this is my alnafi write practice
+#
+# myfile = open("fileName.txt",)
+#
+# print(myfile.read())
+#
+# print(myfile.read())
+#
+# myfile.seek(0)
+#
+# print(myfile.read())
+#
+# ######################
+#
+# ###### Operators ##########
+#
+# print(1==1)
+#
+# print(1==2)
+#
+# print(1!=2)
+#
+# print(1>2)
+#
+# print(1<2)
+#
+# print(1>=2)
+#
+# print(1<=2)
+#
+# print(1<2<3)
+#
+# print(1<2>3)
+#
+# print(1<2 and 2>1)
+#
+# print('sadam' == 'sadam')
+#
+# num = 2
+#
+# if num < 2 or num ==2:
+#     print("Correct")
+#
+# num = 2
+#
+# if num < 2 and num ==2:
+#     print("Correct")
+# else:
+#     print("Not true for both cases")
+#
+# #########################
+#
+# ####### List and Loops ##############
+#
+# numList = [5,10,15,20,25,30,35,40,45,50]
+#
+# for li in numList:
+#
+#     print(li)
+#
+# for li in numList:
+#     if li % 2 == 0:
+#         print(li)
+#
+# for li in numList:
+#     if li % 2 == 1:
+#         print(li)
+#
+# sum = 0
+#
+# sumList = [5,10,15,20,25,30,35,40,45,50]
+#
+# for li in sumList:
+#     sum += li
+# print(sum)
+#
+# evenSum = 0
+#
+# evenSumList = [5,10,15,20,25,30,35,40,45,50]
+#
+# for li in evenSumList:
+#     if li % 2 == 0:
+#         evenSum += li
+# print(evenSum)
+#
+# islam = 'Islam is the religion of peace'
+#
+# for i in islam:
+#     print(i)
+#
+# ##### tuple & list #####
+#
+# tuple2list = [(1,2), (2,3), (3,4),(4,5)]
+# print(len(tuple2list))
+#
+# for i in tuple2list:
+#     print(i)
+#
+# for (a,b) in tuple2list:
+#     print(a)
+#     print(b)
+#
+# ######### dictionary + loops ##########
+#
+# priceDictionary = {'mango' : 200, 'apple':150, 'banana':300}
+#
+# for i in priceDictionary:
+#     print(i)
+#
+#
+# for i in priceDictionary.values():
+#     print(i)
+#
+#
+# for i in priceDictionary.keys():
+#     print(i)
+#
+#
+# for i in priceDictionary.items():
+#     print(i)
+#
+# ##############################
+#
+# ###### While Loop ###########
+#
+# x = 0
+#
+# while x < 10:
+#     print(x)
+#     x += 1
+#
+# ###############
+#
+# ##### string to list ###########
+#
+# myString = 'Islam'
+#
+# myList = []
+#
+# for letters in myString:
+#     myList.append(letters)
+#
+# print(myList)
+#
+# myString = 'Islam'
+#
+# myList = [letters for letters in myString]
+#
+# print(myList)
+#
+# nums = [num for num in range(1,10)]
+# print(nums)
+#
+# nums = [num for num in range(1,10) if num % 2 == 0]
+# print(nums)
+#
+# #############################
+#
+# ######### Methods #############
+#
+# myList = [1,2,3,4,5,6]
+#
+# myList.append(7)
+#
+# print(myList)
+#
+# myList.pop()
+#
+# print(myList)
+#
+# print(help(myList.pop))
