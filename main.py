@@ -294,111 +294,111 @@
 
 ######## Tuples ############### immutable
 
-t = (1,2,3)
+# t = (1,2,3)
 
-print(t)
+# print(t)
 
-## t[0] = 2   ------- can't be performed --------
+# ## t[0] = 2   ------- can't be performed --------
 
-print(len(t))
+# print(len(t))
 
-t2 = (1,2,'apple',4,'apple')
+# t2 = (1,2,'apple',4,'apple')
 
-print(t2)
+# print(t2)
 
-print(t2[(1)])
+# print(t2[(1)])
 
-print(t2[(2)])
+# print(t2[(2)])
 
-print(t2.count('apple'))
+# print(t2.count('apple'))
 
-print(t2.index('apple'))
+# print(t2.index('apple'))
 
-print(t2.index(2))
+# print(t2.index(2))
 
-t3 = t+t2
+# t3 = t+t2
 
-print(t3)
+# print(t3)
 
-############ Tuple to List #############
+# ############ Tuple to List #############
 
-tupToList = list(t2)
+# tupToList = list(t2)
 
-print(tupToList)
+# print(tupToList)
 
-x = tupToList
+# x = tupToList
 
-print(x)
+# print(x)
 
-listToTuple = tuple(x)
+# listToTuple = tuple(x)
 
-print(listToTuple)
+# print(listToTuple)
 
-###### tuples are immutable but deletable #######
+# ###### tuples are immutable but deletable #######
 
-myTuple = (1,2,3,4)
+# myTuple = (1,2,3,4)
 
-print(type(myTuple))
+# print(type(myTuple))
 
-del myTuple      #### delete - so won't be printed now
+# del myTuple      #### delete - so won't be printed now
 
-######################################
+# ######################################
 
-################ Sets ###################
+# ################ Sets ###################
 
-mySet = set()
+# mySet = set()
 
-mySet.add(1)
+# mySet.add(1)
 
-print(mySet)
+# print(mySet)
 
-mySet.add(2)
+# mySet.add(2)
 
-mySet.add(4)
+# mySet.add(4)
 
-mySet.add(3)
+# mySet.add(3)
 
-print(mySet)
+# print(mySet)
 
-mySet.add(4)    ########## no repetation - because it is SET
+# mySet.add(4)    ########## no repetation - because it is SET
 
-print(mySet)
+# print(mySet)
 
-setNumbers = {1,2,2,3,4,4}
+# setNumbers = {1,2,2,3,4,4}
 
-print(setNumbers)
+# print(setNumbers)
 
-print(type(setNumbers))
+# print(type(setNumbers))
 
-setToList = list(setNumbers)
+# setToList = list(setNumbers)
 
-print(setToList)
+# print(setToList)
 
-print(setNumbers.pop())
+# print(setNumbers.pop())
 
-print(setNumbers)
+# print(setNumbers)
 
-setNumbers.pop()
+# setNumbers.pop()
 
-print(setNumbers)
+# print(setNumbers)
 
-##########################
+# ##########################
 
-###### Booleans ##############
+# ###### Booleans ##############
 
-True
+# True
 
-print(type(True))
+# print(type(True))
 
-print( 1 < 2)
+# print( 1 < 2)
 
-a = None
+# a = None
 
-print(type(a))
+# print(type(a))
 
-1 == 1
+# 1 == 1
 
-print(1==1)
+# print(1==1)
 
 ###################################
 
